@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    /* color: white; */
+    background-image: url(/assets/pic/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    color: darkgoldenrod;
+   margin: 30px;
+}
+p{
+    
+    padding: 12px;
+}
+button{
+    margin:5px;
+    text-align: center;
+    
+}
