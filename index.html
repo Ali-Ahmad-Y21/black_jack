@@ -11,19 +11,21 @@
     <h1>blackjack</h1>
     <div class="contaner">
        
-        <p id="play" class="text-light">want to play a round?</p>
+        <p class="text-light" id="message-content">want to play a round?</p>
       
-        <p id="cards" class="text-light" >cards:</p>
+        <p  class="text-light" id="cards-content"></p>
        
-        <p id="sum" class="text-light">sum:</p>
+        <p  class="text-light" id="sum-content"></p>
         
-    </div>
+        
+    </div>  
     
-    <button type="button" class="btn btn-warning pt-1 text-success" >START GAME</button>
-    <button type="button" class="btn btn-warning pt-1 text-success">NEW CARD</button>
-    <button type="button" class="btn btn-danger text-dark">RESAT</button>
+    <button class="btn btn-warning pt-1 btn-sm text-success" onclick="startGame()" >START GAME</button>
+    <button class="btn btn-warning pt-1 btn-sm text-success" onclick="newCard()">NEW CARD</button>
+    <button class="btn btn-danger pt-1 btn-sm text-dark" onclick="reset()">RESET</button>
+    <p  class="text-light fw-bold" id="player-content"></p>
     <br><br>
-    <p id="" class="text-light">ahmad: $</p>
+    <!-- <p id="" class="text-light">ahmad: $</p> -->
     <script src="assets/bootstrap/bootstrap-script.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
